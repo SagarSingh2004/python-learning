@@ -1,7 +1,23 @@
 # 📚 Library Management System (LMS)
 
-A simple **console-based Library Management System** built using **Python**.  
-This project helps manage books, issue/return books, and track issued records using a menu-driven interface.
+A **Library Management System (LMS)** built with **Python** and **Streamlit**, designed to manage books, issue and return them, and track users.
+This project demonstrates **fresher-level Python, Streamlit, and deployment skills**.
+
+---
+
+## 🔑 Default Login Credentials
+
+| Role       | Username   | Password   |
+|-----------|------------|------------|
+| Admin     | admin      | admin123   |
+| Librarian | librarian  | lib123     |
+
+---
+
+## 🌐 Live Demo
+
+Try the project online here:  
+[**Open LMS on Streamlit Cloud**](https://library-management-system-mini-project.streamlit.app/)
 
 ---
 
@@ -17,39 +33,26 @@ This project helps manage books, issue/return books, and track issued records us
 
 ---
 
-## 🛠️ Tech Stack
+## 💻 Tech Stack
 
-- **Python 3**
-- **Jupyter Notebook / Python Script**
-- **Data Storage:** In-memory (Dictionary)
+- **Python** – backend logic  
+- **Streamlit** – interactive web UI  
+- **Session State** – to handle login and library data
 
 ---
 
 ## 📂 Project Structure
 
 - LMS.ipynb
+- lms_streamlit.py
+- requirements.txt
 - README.md
-
----
-
-## 🔑 Default Login Credentials
-
-| Role       | Username   | Password   |
-|-----------|------------|------------|
-| Admin     | admin      | admin123   |
-| Librarian | librarian  | lib123     |
 
 ---
 
 ## ▶️ How to Run
 
-### Option 1: Run in Jupyter Notebook
-1. Open `LMS.ipynb`
-2. Run all cells
-3. Follow the menu options shown
-
-### Option 2: Run as Python File
-1. (Optional) Convert notebook to `.py`
-2. Run:
-```bash
-python LMS.py
+1. Clone the repo
+2. Create and activate a virtual environment
+3. Install dependencies: pip install -r requirements.txt
+4. Run: streamlit run lms_streamlit.py
